@@ -12,3 +12,11 @@
 * If you have tried exploring all directions and cannot find the matching word, return False.
 * If no letter starting with the first letter of the word yields a match, return False finally.
 
+### Letter Case Permutation
+[Problem](https://leetcode.com/problems/letter-case-permutation/)
+* Start with an empty string
+* Next, start adding characters one by one recursively to this string.
+* If the character is not an alphabet, just add it to the string, else branch out into normal case and swapped version
+* Finally, if a permutation equal in length to the original string is found, add it to the result
+
+
