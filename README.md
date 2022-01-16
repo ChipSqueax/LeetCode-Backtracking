@@ -19,4 +19,9 @@
 * If the character is not an alphabet, just add it to the string, else branch out into normal case and swapped version
 * Finally, if a permutation equal in length to the original string is found, add it to the result
 
+### Subsets
+[Problem](https://leetcode.com/problems/subsets/)
+* Start with an empty subset
+* Branch into two permutations - one with the element at the current index, and the other without.
+* Return if the current index exceeds the limit of the given list after adding the subset to the result
 
