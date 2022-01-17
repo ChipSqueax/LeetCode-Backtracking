@@ -25,3 +25,10 @@
 * Branch into two permutations - one with the element at the current index, and the other without.
 * Return if the current index exceeds the limit of the given list after adding the subset to the result
 
+### Subsets 2
+[Problem](https://leetcode.com/problems/subsets-ii/)
+* Start with empty subset
+* The idea is to branch into two permutations - one with the element at the current index and the other without, but in the latter, children cannot include the element at the current index.
+* In order to achieve this, we sort he initial list and then loop till a new element is found and carry out expansion of the second branch, recursively.
+* When starting index passes the length of the given list, add the combination to the result.
+
