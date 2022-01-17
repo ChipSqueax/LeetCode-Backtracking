@@ -59,4 +59,12 @@
 * Branch into a two way decision tree - one with the element at the current index and the other without.
 * Add up the numbers and compare with target; if equal, add to result, if greater or end of candidates is reached, return.
 
+### Combination Sum 2
+[Problem]()
+* Start with empty combination
+* Sort the list since duplicate combinations are not allowed
+* Branch into a two way decision tree - one with the current element and the other without (for the without part, keep moving forward until you find the next element)
+* Add the combination to the result when the total is reached.
+* Return when the total exceeds the target or the current position crosses the size of candidates.
+
 
