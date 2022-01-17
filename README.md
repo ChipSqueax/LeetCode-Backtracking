@@ -32,3 +32,11 @@
 * In order to achieve this, we sort he initial list and then loop till a new element is found and carry out expansion of the second branch, recursively.
 * When starting index passes the length of the given list, add the combination to the result.
 
+### Permutations
+[Problem](https://leetcode.com/problems/permutations/)
+* Start with empty combination
+* Maintain a list called rest. Rest contains all elements other than the current element.
+* Add the current element into the combination and recursively try to find the permutations for the rest of the of the elements.
+* Stop when the rest list is empty and add the combination to the result.
+
+
