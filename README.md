@@ -53,4 +53,10 @@
 * Terminate when the length of the combination is equal to k.
 * Add the combination to the list before termination
 
+### Combination Sum
+[Problem](https://leetcode.com/problems/combination-sum/)
+* Start with empty combination
+* Branch into a two way decision tree - one with the element at the current index and the other without.
+* Add up the numbers and compare with target; if equal, add to result, if greater or end of candidates is reached, return.
+
 
