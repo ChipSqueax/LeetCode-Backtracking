@@ -46,4 +46,11 @@
 * Follow the same procedure as permutation 1, except that carry out backtracking only for distinct elements.
 * This is done by checking if an element is equal to its predecessor.
 
+### Combinations
+[Problem](https://leetcode.com/problems/combinations/)
+* Start with empty combination
+* Add each possible element (every element to the right of the current) to the combination and backtrack recursively
+* Terminate when the length of the combination is equal to k.
+* Add the combination to the list before termination
+
 
