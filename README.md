@@ -39,4 +39,11 @@
 * Add the current element into the combination and recursively try to find the permutations for the rest of the of the elements.
 * Stop when the rest list is empty and add the combination to the result.
 
+### Permutations 2
+[Problem](https://leetcode.com/problems/permutations-ii/)
+* Start with empty combination
+* Sort the given list, to eliminate duplicates.
+* Follow the same procedure as permutation 1, except that carry out backtracking only for distinct elements.
+* This is done by checking if an element is equal to its predecessor.
+
 
