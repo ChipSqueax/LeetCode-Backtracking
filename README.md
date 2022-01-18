@@ -68,10 +68,18 @@
 * Return when the total exceeds the target or the current position crosses the size of candidates.
 
 ### Combination Sum 3
-[Problem]()
+[Problem](https://leetcode.com/problems/combination-sum-iii/)
 * Start with empty combination
 * Branch into two branches - one with the current and element and the other without the current element.
 * If a combination has size k and adds up to the given number, add it to the result
 * If the size of the combination exceeds k or the sum is greater than the target, terminate
+
+### Generate parantheses 
+[Problem](https://leetcode.com/problems/generate-parentheses/)
+* Start with empty combination
+* Branch into two - one with "(" and the other with ")"
+* Assign scores for addition - +1 for "(" and -1 for ")". Your scores should always be within the range 0 <= score <= n
+* Add combination to result and terminate if score is out of the boundaries of the given range.
+
 
 
