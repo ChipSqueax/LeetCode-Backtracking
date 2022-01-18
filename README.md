@@ -60,11 +60,18 @@
 * Add up the numbers and compare with target; if equal, add to result, if greater or end of candidates is reached, return.
 
 ### Combination Sum 2
-[Problem]()
+[Problem](https://leetcode.com/problems/combination-sum-ii/)
 * Start with empty combination
 * Sort the list since duplicate combinations are not allowed
 * Branch into a two way decision tree - one with the current element and the other without (for the without part, keep moving forward until you find the next element)
 * Add the combination to the result when the total is reached.
 * Return when the total exceeds the target or the current position crosses the size of candidates.
+
+### Combination Sum 3
+[Problem]()
+* Start with empty combination
+* Branch into two branches - one with the current and element and the other without the current element.
+* If a combination has size k and adds up to the given number, add it to the result
+* If the size of the combination exceeds k or the sum is greater than the target, terminate
 
 
