@@ -88,5 +88,13 @@
 * If the left portion is a palindrome, add it to the combination and bactrack for the right portion.
 * Add the combination to the result if the index has reached the end of the string.
 
+### Phone number
+[Problem]()
+* Create a dictionary matching the the numbers to their corresponding strings
+* The variable start loops through the given digits string.
+* Create n branches, where n is the number of letters associated with the number at start.
+* Add each value to the combination, and backtrack.
+* Add the combination to the result when the length of digits is reached.
+
 
 
