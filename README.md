@@ -89,12 +89,17 @@
 * Add the combination to the result if the index has reached the end of the string.
 
 ### Phone number
-[Problem]()
+[Problem](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 * Create a dictionary matching the the numbers to their corresponding strings
 * The variable start loops through the given digits string.
 * Create n branches, where n is the number of letters associated with the number at start.
 * Add each value to the combination, and backtrack.
 * Add the combination to the result when the length of digits is reached.
+
+### Sudoku solver
+[Problem](https://leetcode.com/problems/sudoku-solver/)
+* Create a check valid function to return true if a number is valid in a certain position and return false otherwise based on standard sudoku rules.
+* Try to find the solution after placing a value at a certain position. If not possible, backtrack....
 
 
 
