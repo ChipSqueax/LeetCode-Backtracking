@@ -81,5 +81,12 @@
 * Assign scores for addition - +1 for "(" and -1 for ")". Your scores should always be within the range 0 <= score <= n
 * Add combination to result and terminate if score is out of the boundaries of the given range.
 
+### Palindrome partition
+[Problem](https://leetcode.com/problems/palindrome-partitioning/)
+* Start with empty combination
+* Loop through each index in the string and partition the string.
+* If the left portion is a palindrome, add it to the combination and bactrack for the right portion.
+* Add the combination to the result if the index has reached the end of the string.
+
 
 
