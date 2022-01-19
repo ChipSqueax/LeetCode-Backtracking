@@ -101,5 +101,13 @@
 * Create a check valid function to return true if a number is valid in a certain position and return false otherwise based on standard sudoku rules.
 * Try to find the solution after placing a value at a certain position. If not possible, backtrack....
 
+### N Queens
+[Problem](https://leetcode.com/problems/n-queens/)
+* We store only the column numbers of the positions where the Queen is placed.
+* To check for diagonals, always one diagonal will have constant r+c value and the other will have constant r-c value.
+* Maintain two sets which keep track of these invalid diagonals.
+* Backtrack by placing queen in certain row, note down the column, diagonal values. Move on to the next row.
+* Convert the list data into string data and add to result.
+
 
 
